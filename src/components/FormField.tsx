@@ -1,7 +1,7 @@
 import { FormControl, Input } from "native-base"
 
 interface IProps {
-  label: string,
+  label?: string,
   placeholder: string,
   secureTextEntry?: boolean,
   leftIcon?: React.ReactNode
