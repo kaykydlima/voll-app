@@ -1,11 +1,24 @@
-import { Button } from 'native-base'
+import React from 'react';
+import { Button } from 'native-base';
 
 interface IProps {
-    children: React.ReactNode
+  onPress: () => void;
+  children: React.ReactNode;
 }
 
-export default function UButton({ children }: IProps) {
-    return(
-        <Button bgColor='blue.800' mt='10' borderRadius='lg'>{ children }</Button>
-    )
+const UButton: React.FC<IProps> = ({ onPress, children, ...rest }) => {
+  return (
+    <Button
+      bgColor='blue.800'
+      mt={10}
+      borderRadius='lg'
+      onPress={onPress}
+      w='100%'
+      {...rest}
+    >
+      {children}
+    </Button>
+  )
 }
+
+export default UButton;
