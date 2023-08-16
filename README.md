@@ -1,4 +1,3 @@
-
 # Voll APP
 
 Voll app é um aplicativo desenvolvido em React Native. A ideia dele é concentrar os possíveis planos de saúde do usuário em um único local, no qual ele conseguirá administrar melhor as consultas a serem marcadas.
@@ -12,8 +11,13 @@ Voll app é um aplicativo desenvolvido em React Native. A ideia dele é concentr
 
 ## Imagens do aplicativo
 
-<img align="center" width="300" src="https://i.imgur.com/TMGKWZM.png" />
+<video autoplay>
+    <source src="https://i.imgur.com/izfIBGe.mp4">
+</video>
 
+<video autoplay>
+    <source src="https://i.imgur.com/zzM0Z5f.mp4">
+</video>
 
 ## Passos futuros no aplicativo
 
